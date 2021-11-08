@@ -1,15 +1,15 @@
 {
     "name": "WhatsAsenaDuplicated",
     "description": "WhatsAsena project - Makes it easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
-    "logo": "https://i.hizliresim.com/6Bbj7i.jpg",
+    "logo": "",
     "keywords": ["whatsapp-user-bot"],
-    "repository": "https://github.com/AshenNethsara/WhatsAsenaDuplicated",
-    "website":   "https://github.com/AshenNethsara/WhatsAsenaDuplicated",
-    "success_url": "https://github.com/AshenNethsara/WhatsAsenaDuplicated",
+    "repository": "https://github.com/AshenNethsara/AttentionBot",
+    "website":   "https://github.com/AshenNethsara/AttentionBot",
+    "success_url": "https://github.com/AshenNethsara/AttentionBot",
     "stack": "container",
     "env": {
         "ASENA_SESSION": {
-            "description": "Qr.Js ile oluşturduğunuz özel session kodu. Type here yours Asena Session.",
+            "description": "Type here yours Asena Session.",
             "required": true
         },
         "SUDO": {
@@ -17,17 +17,17 @@
             "required": false
         },
         "LANGUAGE": {
-            "description": "Bot language. Azerice => az, English => en, Türkçe => tr, Malayalam => ml, Hindi => HI, Indonesia => ID, Español => ES, Portuguese => pt, Russian => ru",
+            "description": "English => en, Sinhala => si",
             "required": true,
-            "value": "TR"
+            "value": "si"
         },
         "ANTİ_LİNK": {
-            "description": "Link Engelleme Sistemi. Link Blocking System.",
+            "description": "Antilink System.",
             "required": true,
             "value": "false"
         },
         "AUTO_BİO": {
-            "description": "Duruma otomatik tarih ve zaman eklemek için true yapın. Set true for auto date, time in biography.",
+            "description": "Set true for auto date, time in biography.",
             "required": true,
             "value": "false"
         },
